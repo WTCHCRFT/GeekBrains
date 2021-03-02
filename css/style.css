@@ -1,3 +1,11 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
 .header {
     background-color: #222222;
 }
@@ -24,8 +32,36 @@
     margin: 0 34px 0 0;
 }
 .header__logo {
-    margin: 0 10px 0  0;
+    margin: 0 41px 0  0;
 }
 .header__preson_link {
     margin: 0 34px 0 0;
+}
+.brand {
+    display: flex;
+    margin: 0 0 63px 0;
+}
+.brand_title {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+.brand__title_wrapper {
+    background-color: #F1E4E6;
+    flex-grow: 1;
+    display: flex; 
+    align-items: center;
+    padding: 0 0 0 92px;
+}
+.brand__subtitle {
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+}
+.brand__subtitle_pink {
+    color: #F16D7F;
 }
