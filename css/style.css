@@ -108,4 +108,17 @@ body {
 }
 .offres_title {
 
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.offers__subtitle {
+    color: #E76B7C;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    text-transform: uppercase;
+
 }
