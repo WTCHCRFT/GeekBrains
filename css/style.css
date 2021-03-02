@@ -122,3 +122,69 @@ body {
     text-transform: uppercase;
 
 }
+
+.fetured__title_wrapper {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fetured__title {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #222222;
+
+    
+}
+.fetured__subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    margin: 0 0 42px 0;
+    
+}
+.fetured__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.fetured__item {
+    max-width: 360px;
+    background: #F8F8F8;
+    margin:0 0 30px 0;
+}
+.fetured__text {
+    padding: 25px 28px 20px 19px;
+}
+.fetured__itemTitle {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin: 25px 0 13px 0;
+    
+}
+.fetured__itemSubtitle {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    color: #5D5D5D;
+
+}
+.fetured__price {
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    margin: 18px 0 0 0;
+}
+.fetured__button {
+    border: 1px solid #FF6A6A;
+    padding: 14px 38px;
+    color: #F26376;
+    text-decoration: none;
+}
+.fetured__button_wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 48px 0 0 0;
+}
