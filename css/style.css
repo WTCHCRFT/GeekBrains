@@ -6,6 +6,16 @@ body {
     font-size: 16px;
     line-height: 19px;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+  }
 .header {
     background-color: #222222;
 }
@@ -64,4 +74,38 @@ body {
 }
 .brand__subtitle_pink {
     color: #F16D7F;
+}
+.offers__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.offers__item {
+    background: rgba(33, 22, 22, 0.7);
+    width: 360px;
+    min-height: 260px;
+    margin: 0 0 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.offers__item_women {
+    background-image: url(../img/for_women.jpg);
+}
+.offers__item_men {
+    background-image: url(../img/for_men.jpg);
+}
+
+.offers__item_kids {
+    background-image: url(../img/for_kids.jpg);
+}
+
+.offers__item_accesories {
+    background-image: url(../img/accesories.jpg);
+    flex-grow: 1;
+}
+.offres_title {
+
 }
