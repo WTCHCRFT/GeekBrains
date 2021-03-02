@@ -12,49 +12,58 @@
 
 <body>
     <header class="header">
-        <img src="img/logo.svg" alt="Логотип" width="44" height="38">
-        <img src="img/loupe.svg" alt="Поиск" width="26" height="27">
-        <button>
-            <img src="img/menu.svg" alt="Кнопка меню" width="32" height="23">
-        </button>
-        <a href="#"><img src="img/preson.svg" alt="Аккаунт" width="32" height="32"></a>
-        <a href="#"><img src="img/cart.svg" alt="Корзина" width="32" height="29"></a>
-        <!-- Сделано ДЗ Вебинар 01:04:00 -->
-        <nav>
-            menu
-            <ul>
-                <li>
-                    <h2>man</h2>
-                    <ul>
-                        <li><a href="#">Accessories</a></li>
-                        <li><a href="#">Bags</a> </li>
-                        <li><a href="#">Denim</a> </li>
-                        <li><a href="#">T-Shirts</a> </li>
-                    </ul>
-                </li>
-                <li>
-                    <h2>woman</h2>
-                    <ul>
-                        <li><a href="#">Accessories</a> </li>
-                        <li><a href="#">Jackets & Coats</a> </li>
-                        <li><a href="#">Polos</a> </li>
-                        <li><a href="#">T-Shirts</a> </li>
-                        <li><a href="#">Shirts</a> </li>
-                    </ul>
-                </li>
-                <li>
-                    <h2>kids</h2>
-                    <ul>
-                        <li><a href="#">Accessories</a> </li>
-                        <li><a href="#">Jackets & Coats</a> </li>
-                        <li><a href="#">Polos</a> </li>
-                        <li><a href="#">T-Shirts</a> </li>
-                        <li><a href="#">Shirts</a> </li>
-                        <li><a href="#">Bags</a> </li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__controls">
+                    <img class="header__logo" src="img/logo.svg" alt="Логотип" width="44" height="38">
+                    <!-- Нужно ли оборачивать лого ссылкой? -->
+                    <img src="img/loupe.svg" alt="Поиск" width="26" height="27">
+                </div>
+                <div class="header__controls">
+                    <button class="header__button">
+                        <img src="img/menu.svg" alt="Кнопка меню" width="32" height="23">
+                    </button>
+                    <a href="#" class="header__preson_link"><img src="img/preson.svg" alt="Аккаунт" width="32"
+                            height="32"></a>
+                    <a href="#"><img src="img/cart.svg" alt="Корзина" width="32" height="29"></a>
+                </div>
+            </div>
+            <nav class="header__navigation">
+                menu
+                <ul>
+                    <li>
+                        <h2>man</h2>
+                        <ul>
+                            <li><a href="#">Accessories</a></li>
+                            <li><a href="#">Bags</a> </li>
+                            <li><a href="#">Denim</a> </li>
+                            <li><a href="#">T-Shirts</a> </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>woman</h2>
+                        <ul>
+                            <li><a href="#">Accessories</a> </li>
+                            <li><a href="#">Jackets & Coats</a> </li>
+                            <li><a href="#">Polos</a> </li>
+                            <li><a href="#">T-Shirts</a> </li>
+                            <li><a href="#">Shirts</a> </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>kids</h2>
+                        <ul>
+                            <li><a href="#">Accessories</a> </li>
+                            <li><a href="#">Jackets & Coats</a> </li>
+                            <li><a href="#">Polos</a> </li>
+                            <li><a href="#">T-Shirts</a> </li>
+                            <li><a href="#">Shirts</a> </li>
+                            <li><a href="#">Bags</a> </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <section>

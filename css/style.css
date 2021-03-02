@@ -1,0 +1,31 @@
+.header {
+    background-color: #222222;
+}
+
+.header__navigation {
+    display: none;
+}
+
+.container {
+    width: 1138px;
+    margin: 0 auto;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    min-height: 75px;
+    justify-content: space-between;
+}
+
+.header__button {
+    background-color: transparent;
+    border: none;
+    margin: 0 34px 0 0;
+}
+.header__logo {
+    margin: 0 10px 0  0;
+}
+.header__preson_link {
+    margin: 0 34px 0 0;
+}
