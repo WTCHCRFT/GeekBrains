@@ -15,7 +15,7 @@ body {
     padding: 0;
     overflow: hidden;
     border: 0;
-    clip: rect(0 0 0 0)
+    clip: rect(0 0 0 0);
   }
 
 .header {
@@ -100,7 +100,6 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
 }
 
 .offers__item_women {
@@ -121,7 +120,6 @@ body {
 }
 
 .offres_title {
-
     font-size: 18px;
     font-weight: 900;
     line-height: 22px;
