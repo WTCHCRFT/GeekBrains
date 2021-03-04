@@ -83,27 +83,31 @@
                             <legend class="registration__lagend">Your Name</legend>
                             <ul>
                                 <li>
-                                    <input class="input-text" type="text" name="First Name" placeholder="First Name">
+                                    <input class="input-text" required type="text" name="First Name"
+                                        placeholder="First Name">
                                 </li>
                                 <li>
-                                    <input class="input-text" type="text" name="Last Name" placeholder="Last Name">
+                                    <input class="input-text" required type="text" name="Last Name"
+                                        placeholder="Last Name">
                                 </li>
                                 <li class="registration__item registration__item_padding">
-                                    <input class="radio-input" id="gender-male" type="radio" id="Male" name="gender"
-                                        value="Male">
+                                    <input class="radio-input" required id="gender-male" type="radio" id="Male"
+                                        name="gender" value="Male">
                                     <label class="input-label" for="gender-male">Male</label>
-                                    <input class="radio-input" id="gender-female" type="radio" id="Female" name="gender"
-                                        value="Female">
+                                    <input class="radio-input" required id="gender-female" type="radio" id="Female"
+                                        name="gender" value="Female">
                                     <label class="input-label" for="gender-female">Female</label>
-                                    <input class="radio-input" id="gender-other" type="radio" id="Other" name="gender"
-                                        value="Other">
+                                    <input class="radio-input" required id="gender-other" type="radio" id="Other"
+                                        name="gender" value="Other">
                                     <label class="input-label" for="gender-other">Other</label>
                                 </li>
                             </ul>
                             <legend class="registration__lagend">Login details</legend>
                             <ul>
-                                <li><input class="input-text" type="email" name="Email" placeholder="Email"></li>
-                                <li><input class="input-text" type="password" name="Password" placeholder="Password">
+                                <li><input class="input-text" required type="email" name="Email" placeholder="Email">
+                                </li>
+                                <li><input class="input-text" required type="password" name="Password"
+                                        placeholder="Password">
                                 </li>
                                 <p class="registretion__input-text">Please use 8 or more characters, with at least 1
                                     number
