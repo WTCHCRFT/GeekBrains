@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HomeWork#2</title>
+    <title>HomeWork#3</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
@@ -33,35 +33,38 @@
             </div>
         </div>
         <nav class="header__navigation" id="menu">
-            menu
-            <ul>
-                <li>
-                    <h2>man</h2>
-                    <ul>
-                        <li><a href="#">Accessories</a></li>
-                        <li><a href="#">Bags</a> </li>
-                        <li><a href="#">Denim</a> </li>
-                        <li><a href="#">T-Shirts</a> </li>
+            <button class="header__button" id="burger2">
+                <img src="img/x.svg" alt="Кнопка меню" width="12" height="12">
+            </button>
+            <h2 class="header_menu-title">Menu</h2>
+            <ul class="header_list">
+                <li class="header_item">
+                    <h2 class="header_menu-subtitle">man</h2>
+                    <ul class="header_sublist">
+                        <li class="header_item"><a href="#">Accessories</a></li>
+                        <li class="header_item"><a href="#">Bags</a> </li>
+                        <li class="header_item"><a href="#">Denim</a> </li>
+                        <li class="header_item"><a href="#">T-Shirts</a> </li>
                     </ul>
                 </li>
-                <li>
-                    <h2>woman</h2>
-                    <ul>
-                        <li><a href="#">Accessories</a> </li>
-                        <li><a href="#">Jackets & Coats</a> </li>
-                        <li><a href="#">Polos</a> </li>
-                        <li><a href="#">T-Shirts</a> </li>
-                        <li><a href="#">Shirts</a> </li>
+                <li class="header_item">
+                    <h2 class="header_menu-subtitle">woman</h2>
+                    <ul class="header_sublist">
+                        <li class="header_item"><a href="#">Accessories</a> </li>
+                        <li class="header_item"><a href="#">Jackets & Coats</a> </li>
+                        <li class="header_item"><a href="#">Polos</a> </li>
+                        <li class="header_item"><a href="#">T-Shirts</a> </li>
+                        <li class="header_item"><a href="#">Shirts</a> </li>
                     </ul>
                 </li>
-                <li>
-                    <h2>kids</h2>
-                    <ul>
-                        <li><a href="#">Accessories</a> </li>
-                        <li><a href="#">Jackets & Coats</a> </li>
-                        <li><a href="#">Polos</a> </li>
-                        <li><a href="#">T-Shirts</a> </li>
-                        <li><a href="#">Shirts</a> </li>
+                <li class="header_item">
+                    <h2 class="header_menu-subtitle">kids</h2>
+                    <ul class="header_sublist">
+                        <li class="header_item"><a href="#">Accessories</a> </li>
+                        <li class="header_item"><a href="#">Jackets & Coats</a> </li>
+                        <li class="header_item"><a href="#">Polos</a> </li>
+                        <li class="header_item"><a href="#">T-Shirts</a> </li>
+                        <li class="header_item"><a href="#">Shirts</a> </li>
                         <li><a href="#">Bags</a> </li>
                     </ul>
                 </li>
@@ -110,7 +113,26 @@
                 </div>
                 <ul class="fetured__list">
                     <li class="fetured__item">
-                        <img src="img/futured_items-1.jpg" alt="man" width="360" height="420">
+                        <div class="overlay_wrapper">
+                            <img src="img/futured_items-1.jpg" alt="man" width="360" height="420">
+                            <div class="card-overlay"><button class="overlay-button">Add to Cart</button></div>
+                        </div>
+                        <div class="fetured__text">
+                            <h3 class="fetured__itemTitle">ellery x m'o capsule</h3>
+                            <p class="fetured__itemSubtitle">Known for her sculptural takes on traditional tailoring,
+                                Australian arbiter of cool Kym
+                                Ellery
+                                teams up with Moda Operandi.</p>
+                            <p class="fetured__price">$52.00</p>
+                        </div>
+
+                    </li>
+                    <li class="fetured__item">
+                        <div class="overlay_wrapper">
+                            <img src="img/futured_items-2.jpg" alt="woman" width="360" height="420">
+                            <div class="card-overlay"><button class="overlay-button">Add to Cart</button></div>
+                        </div>
+
                         <div class="fetured__text">
                             <h3 class="fetured__itemTitle">ellery x m'o capsule</h3>
                             <p class="fetured__itemSubtitle">Known for her sculptural takes on traditional tailoring,
@@ -121,7 +143,10 @@
                         </div>
                     </li>
                     <li class="fetured__item">
-                        <img src="img/futured_items-2.jpg" alt="woman" width="360" height="420">
+                        <div class="overlay_wrapper">
+                            <img src="img/futured_items-3.jpg" alt="woman" width="360" height="420">
+                            <div class="card-overlay"><button class="overlay-button">Add to Cart</button></div>
+                        </div>
                         <div class="fetured__text">
                             <h3 class="fetured__itemTitle">ellery x m'o capsule</h3>
                             <p class="fetured__itemSubtitle">Known for her sculptural takes on traditional tailoring,
@@ -132,7 +157,10 @@
                         </div>
                     </li>
                     <li class="fetured__item">
-                        <img src="img/futured_items-3.jpg" alt="man" width="360" height="420">
+                        <div class="overlay_wrapper">
+                            <img src="img/futured_items-4.jpg" alt="woman" width="360" height="420">
+                            <div class="card-overlay"><button class="overlay-button">Add to Cart</button></div>
+                        </div>
                         <div class="fetured__text">
                             <h3 class="fetured__itemTitle">ellery x m'o capsule</h3>
                             <p class="fetured__itemSubtitle">Known for her sculptural takes on traditional tailoring,
@@ -143,7 +171,10 @@
                         </div>
                     </li>
                     <li class="fetured__item">
-                        <img src="img/futured_items-4.jpg" alt="man" width="360" height="420">
+                        <div class="overlay_wrapper">
+                            <img src="img/futured_items-5.jpg" alt="woman" width="360" height="420">
+                            <div class="card-overlay"><button class="overlay-button">Add to Cart</button></div>
+                        </div>
                         <div class="fetured__text">
                             <h3 class="fetured__itemTitle">ellery x m'o capsule</h3>
                             <p class="fetured__itemSubtitle">Known for her sculptural takes on traditional tailoring,
@@ -154,18 +185,10 @@
                         </div>
                     </li>
                     <li class="fetured__item">
-                        <img src="img/futured_items-5.jpg" alt="woman" width="360" height="420">
-                        <div class="fetured__text">
-                            <h3 class="fetured__itemTitle">ellery x m'o capsule</h3>
-                            <p class="fetured__itemSubtitle">Known for her sculptural takes on traditional tailoring,
-                                Australian arbiter of cool Kym
-                                Ellery
-                                teams up with Moda Operandi.</p>
-                            <p class="fetured__price">$52.00</p>
+                        <div class="overlay_wrapper">
+                            <img src="img/futured_items-6.jpg" alt="woman" width="360" height="420">
+                            <div class="card-overlay"><button class="overlay-button">Add to Cart</button></div>
                         </div>
-                    </li>
-                    <li class="fetured__item">
-                        <img src="img/futured_items-6.jpg" alt="woman" width="360" height="420">
                         <div class="fetured__text">
                             <h3 class="fetured__itemTitle">ellery x m'o capsule</h3>
                             <p class="fetured__itemSubtitle">Known for her sculptural takes on traditional tailoring,
@@ -258,6 +281,16 @@
         button.addEventListener('click', function () {
             navigation.classList.toggle('display-block');
             wrp.classList.toggle('wrp-active');
+        });
+        let button2 = document.getElementById('burger2');
+
+        let navigation2 = document.getElementById('menu');
+
+        let wrp2 = document.getElementById('wrp');
+
+        button2.addEventListener('click', function () {
+            navigation2.classList.toggle('display-block');
+            wrp2.classList.toggle('wrp-active');
         });
     </script>
 </body>
