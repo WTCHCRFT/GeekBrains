@@ -18,7 +18,8 @@
         <div class="container">
             <div class="header__wrapper">
                 <div class="header__controls">
-                    <a href="#"><img class="header__logo" src="img/logo.svg" alt="Логотип" width="44" height="38"></a>
+                    <a href="index.html"><img class="header__logo" src="img/logo.svg" alt="Логотип" width="44"
+                            height="38"></a>
                     <img src="img/loupe.svg" alt="Поиск" width="26" height="27">
                     <!-- Нужно ли оборачивать иконку ссылкой? -->
                 </div>
@@ -77,36 +78,55 @@
         <div class="container">
             <div class="registration__forms">
                 <div class="registration__inputs">
-                    <form action="#">
+                    <form action="https://formspree.io/f/moqpobyl" method="POST">
                         <fieldset>
-                            <legend>Your Name</legend>
+                            <legend class="registration__lagend">Your Name</legend>
                             <ul>
-                                <li><input type="text" placeholder="First Name"></li>
-                                <li><input type="text" placeholder="Last Name"></li>
-                                <li><input class="radio-input" type="radio" id="" name="" value=""><input
-                                        class="radio-input" type="radio" id="" name="" value=""></li>
+                                <li>
+                                    <input class="input-text" type="text" name="First Name" placeholder="First Name">
+                                </li>
+                                <li>
+                                    <input class="input-text" type="text" name="Last Name" placeholder="Last Name">
+                                </li>
+                                <li class="registration__item registration__item_padding">
+                                    <input class="radio-input" id="gender-male" type="radio" id="Male" name="gender"
+                                        value="Male">
+                                    <label class="input-label" for="gender-male">Male</label>
+                                    <input class="radio-input" id="gender-female" type="radio" id="Female" name="gender"
+                                        value="Female">
+                                    <label class="input-label" for="gender-female">Female</label>
+                                    <input class="radio-input" id="gender-other" type="radio" id="Other" name="gender"
+                                        value="Other">
+                                    <label class="input-label" for="gender-other">Other</label>
+                                </li>
                             </ul>
-                            <legend>Your Name</legend>
+                            <legend class="registration__lagend">Login details</legend>
                             <ul>
-                                <li><input type="text" placeholder="First Name"></li>
-                                <li><input type="text" placeholder="Last Name"></li>
-                                <p>Please use 8 or more characters, with at least 1 number and a mixture of uppercase
+                                <li><input class="input-text" type="email" name="Email" placeholder="Email"></li>
+                                <li><input class="input-text" type="password" name="Password" placeholder="Password">
+                                </li>
+                                <p class="registretion__input-text">Please use 8 or more characters, with at least 1
+                                    number
+                                    and a mixture of uppercase
                                     and lowercase letters</p>
-                                <button type="submit" class="button">JOIN NOW</button>
+                                <button type="submit" class="registration__button">join now <img
+                                        class="registration__button-img" src="img/arrow.svg" alt="arrow" width="17"
+                                        height="10"></button>
                             </ul>
                         </fieldset>
                     </form>
                 </div>
                 <div class="registration__perks">
-                    <h2>LOYALTY HAS ITS PERKS</h2>
-                    <p>Get in on the loyalty program where you can earn points and unlock serious perks. Starting with
+                    <h2 class="registration__title-perks">loyalty has its perks</h2>
+                    <p class="registration__text-perks">Get in on the loyalty program where you can earn points and
+                        unlock serious perks. Starting with
                         these as soon as you join:</p>
-                    <ul>
-                        <li>15% off welcome offer</li>
-                        <li>Free shipping, returns and exchanges on all orders</li>
-                        <li>$10 off a purchase on your birthday</li>
-                        <li>Early access to products</li>
-                        <li>Exclusive offers & rewards</li>
+                    <ul class="registration__list">
+                        <li class="registration__item-preks">15% off welcome offer</li>
+                        <li class="registration__item-preks">Free shipping, returns and exchanges on all orders</li>
+                        <li class="registration__item-preks">$10 off a purchase on your birthday</li>
+                        <li class="registration__item-preks">Early access to products</li>
+                        <li class="registration__item-preks">Exclusive offers & rewards</li>
                     </ul>
                 </div>
             </div>
