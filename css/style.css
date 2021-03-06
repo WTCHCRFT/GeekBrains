@@ -431,6 +431,9 @@ body {
 .footer__icons {
     margin: 23px 0 23px 0
 }
+footer svg:hover {
+    fill: #F16D7F;
+}
 
 .footer__copyright {
     color: #fff;
