@@ -1,0 +1,43 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    overflow-x: hidden;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+.container {
+    width: 1138px;
+    margin: 0 auto;
+}
+
+.wrp {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.wrp-active {
+    width: 100%;
+    height: 765px;
+    position: absolute;
+    display: block;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 2;
+    -webkit-box-shadow: 0px 8px 15px 5px rgba(0, 0, 0, 0.45);
+    box-shadow: 0px 8px 15px 5px rgba(0, 0, 0, 0.45);
+}
+

@@ -1,0 +1,36 @@
+.brand {
+    display: flex;
+    margin: 0 0 63px 0;
+
+    &_title {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 58px;
+        text-transform: uppercase;
+    }
+
+    &__title_wrapper {
+        background-color: #F1E4E6;
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        padding: 0 0 0 92px;
+    }
+
+    &__subtitle {
+        display: block;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38px;
+    }
+
+    &__subtitle_pink {
+        color: #F16D7F;
+    }
+}
+
+.display-block {
+    right: 0px;
+    z-index: 3;}
