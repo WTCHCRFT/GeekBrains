@@ -519,8 +519,9 @@ body {
   text-align: center;
   margin: 30px 0 0 0;
   font-size: 20px;
-  font-weight: 400;
   line-height: 24px;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .footer__subscribe {
@@ -539,15 +540,17 @@ body {
 
 .footer__title {
   font-size: 24px;
-  font-weight: 700;
   line-height: 38px;
+  font-weight: 700;
+  font-style: normal;
   text-transform: uppercase;
 }
 
 .footer_subtitle {
   font-size: 18px;
-  font-weight: 400;
   line-height: 30px;
+  font-weight: 400;
+  font-style: normal;
   text-transform: uppercase;
   margin: 5px 0 32px 0;
 }
@@ -575,11 +578,11 @@ body {
   background: #F16D7F;
   width: 100px;
   border: none;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .footer__contacts_wrapper {
-  background: #222224;
+  background: #222222;
 }
 
 .footer__contacts {
@@ -610,6 +613,8 @@ body {
 .registration__title {
   font-size: 24px;
   line-height: 29px;
+  font-weight: 400;
+  font-style: normal;
   text-transform: uppercase;
   color: #F16D7F;
 }
@@ -625,9 +630,10 @@ body {
 }
 
 .registration__lagend {
-  font-weight: 300;
   font-size: 16px;
   line-height: 19px;
+  font-weight: 300;
+  font-style: normal;
   padding: 0 0 20px 0;
 }
 
@@ -658,9 +664,10 @@ body {
 }
 
 .registration__input-text {
-  font-weight: 300;
   font-size: 13px;
   line-height: 16px;
+  font-weight: 300;
+  font-style: normal;
   color: #B1B1B1;
   max-width: 360px;
   margin: 0 0 39px 0;
@@ -676,7 +683,7 @@ body {
   border: none;
   font-weight: normal;
   font-size: 14px;
-  color: #FFFFFF;
+  color: #fff;
   text-transform: uppercase;
   margin: 0 0 96px 0;
   -webkit-transition: all 0.5s ease;
@@ -688,24 +695,27 @@ body {
 }
 
 .registration__title-perks {
-  font-weight: 300;
   font-size: 24px;
   line-height: 29px;
+  font-weight: 300;
+  font-style: normal;
   text-transform: uppercase;
   margin-bottom: 22px;
 }
 
 .registration__text-perks {
-  font-weight: 300;
   font-size: 24px;
   line-height: 29px;
+  font-weight: 300;
+  font-style: normal;
   margin-bottom: 22px;
 }
 
 .registration__item-preks {
-  font-weight: 300;
   font-size: 24px;
   line-height: 29px;
+  font-weight: 300;
+  font-style: normal;
   margin-bottom: 16px;
   padding: 0 0 0 54px;
   position: relative;
