@@ -448,7 +448,7 @@ body {
 
 .advantages {
   padding: 104px 0;
-  background: #222224;
+  background: #222222;
   margin: 95px 0 0 0;
 }
 
@@ -468,16 +468,18 @@ body {
 
 .advantages__itemTitle {
   font-size: 20px;
-  font-weight: 400;
   line-height: 24px;
+  font-weight: 400;
+  font-style: normal;
   color: #FBFBFB;
   margin: 28px 0 16px 0;
 }
 
 .advantages__itemSubtitle {
   font-size: 14px;
-  font-weight: 300;
   line-height: 17px;
+  font-weight: 300;
+  font-style: normal;
   color: #FBFBFB;
 }
 

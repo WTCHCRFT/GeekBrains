@@ -1,6 +1,6 @@
 .advantages {
     padding: 104px 0;
-    background: #222224;
+    background: $mine-shaft;
     margin: 95px 0 0 0;
 
     &__list {
@@ -12,18 +12,14 @@
     }
 
     &__itemTitle {
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 24px;
+        @include font(20px, 24px, 400);
         color: #FBFBFB;
         margin: 28px 0 16px 0;
 
     }
 
     &__itemSubtitle {
-        font-size: 14px;
-        font-weight: 300;
-        line-height: 17px;
+        @include font(14px, 17px, 300);
         color: #FBFBFB;
     }
 }
