@@ -1,14 +1,7 @@
 .registration {
-    &__breadclumb {
-        background: $soft-peach;
-        padding: 60px 0;
-    }
+    
 
-    &__title {
-        @include font(24px, 29px);
-        text-transform: uppercase;
-        color: $pink;
-    }
+
 
     &__forms {
         padding-top: 64px;

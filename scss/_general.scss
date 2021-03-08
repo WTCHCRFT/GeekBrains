@@ -41,3 +41,13 @@ body {
     box-shadow: 0px 8px 15px 5px rgba(0, 0, 0, 0.45);
 }
 
+.breadclumb {
+    background: $soft-peach;
+    padding: 60px 0;
+
+    &__title {
+        @include font(24px, 29px);
+        text-transform: uppercase;
+        color: $pink;
+    }
+}

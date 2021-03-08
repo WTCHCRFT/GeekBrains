@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__controls"><a href="index.html"><img class="header__logo" src="img/logo.svg"
+                            alt="Логотип" width="44" height="38"></a><img src="img/loupe.svg" alt="Поиск" width="26"
+                        height="27">
+                </div>
+                <div class="header__controls"><button class="header__button" id="burger"><img src="img/menu.svg"
+                            alt="Кнопка меню" width="32" height="23"></button><a href="registration.html"
+                        class="header__preson_link"><img src="img/preson.svg" alt="Аккаунт" width="32"
+                            height="32"></a><a href="cart.html"><img src="img/cart.svg" alt="Корзина" width="32"
+                            height="29"></a></div>
+            </div>
+        </div>
+        <nav class="header__navigation" id="menu"><button class="header__button" id="burger2"><img src="img/x.svg"
+                    alt="Кнопка меню" width="12" height="12"></button>
+            <h2 class="header_menu-title">Menu</h2>
+            <ul class="header_list">
+                <li class="header_item">
+                    <h2 class="header_menu-subtitle">man</h2>
+                    <ul class="header_sublist">
+                        <li class="header_item"><a href="#">Accessories</a></li>
+                        <li class="header_item"><a href="#">Bags</a></li>
+                        <li class="header_item"><a href="#">Denim</a></li>
+                        <li class="header_item"><a href="#">T-Shirts</a></li>
+                    </ul>
+                </li>
+                <li class="header_item">
+                    <h2 class="header_menu-subtitle">woman</h2>
+                    <ul class="header_sublist">
+                        <li class="header_item"><a href="#">Accessories</a></li>
+                        <li class="header_item"><a href="#">Jackets & Coats</a></li>
+                        <li class="header_item"><a href="#">Polos</a></li>
+                        <li class="header_item"><a href="#">T-Shirts</a></li>
+                        <li class="header_item"><a href="#">Shirts</a></li>
+                    </ul>
+                </li>
+                <li class="header_item">
+                    <h2 class="header_menu-subtitle">kids</h2>
+                    <ul class="header_sublist">
+                        <li class="header_item"><a href="#">Accessories</a></li>
+                        <li class="header_item"><a href="#">Jackets & Coats</a></li>
+                        <li class="header_item"><a href="#">Polos</a></li>
+                        <li class="header_item"><a href="#">T-Shirts</a></li>
+                        <li class="header_item"><a href="#">Shirts</a></li>
+                        <li><a href="#">Bags</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="cart">
+        <div class="wrp" id="wrp"></div>
+        <div class="breadclumb">
+            <div class="container">
+                <h1 class="breadclumb__title">shopping cart</h1>
+            </div>
+        </div>
+        <section>
+            <div class="container">
+                <div class="cart__block">
+                    <div class="cart__items">
+                        <div class="cart__card"><img class="cart__img" src="img/card-man-1.jpg" alt="man">
+                            <div class="cart__text-block">
+                                <h2 class="cart__title">mango people t-shirt</h2>
+                                <p class="cart__text cart__price">Price:</p>
+                                <p class="cart__text cart__color">Color:</p>
+                                <p class="cart__text cart__size">Size:</p>
+                                <p class=" cart__text cart__quantity">Quantity: </p>
+                            </div>
+                        </div>
+                        <div class="cart__card"><img class="cart__img" src="img/card-man-2.jpg" alt="man">
+                            <div class="cart__text-block">
+                                <h2 class="cart__title">mango people t-shirt</h2>
+                                <p class="cart__text cart__price">Price:</p>
+                                <p class="cart__text cart__color">Color:</p>
+                                <p class="cart__text cart__size">Size:</p>
+                                <p class=" cart__text cart__quantity">Quantity: </p>
+                            </div>
+                        </div>
+                        <div class="cart__controls">
+                            <button class="cart__card-button">clear shopping cart</button>
+                            <a href="#" class="cart__card-button">continue shopping</a>
+                        </div>
+                    </div>
+                    <div class="cart__forms">
+                        <form action="https://formspree.io/f/moqpobyl" method="POST">
+                            <fieldset>
+                                <legend class="cart__lagend">shipping adress</legend>
+                                <ul>
+                                    <li><input class="cart__input" type="text" placeholder="Bangladesh" required></li>
+                                    <li><input class="cart__input" type="text" placeholder="State" required></li>
+                                    <li><input class="cart__input" type="text" placeholder="Postcode / Zip" required>
+                                    </li><button class="cart__quote" type="submit">get a quote</button>
+                                </ul>
+                            </fieldset>
+                            <div class="cart__total-wrapper">
+                                <div class="cart__total">
+                                    <p class="cart__subtotal">sub total</p>
+                                    <p class="cart__grandtotal">grand total</p>
+                                    <div class="cart__hr"></div>
+                                    <button class="cart__button">proceed to checkout</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__info_wrapper">
+            <div class="container">
+                <div class="footer__info">
+                    <div class="footer__text"><img src="img/face.png" alt="Женщина" width="96" height="96">
+                        <p class="footer__quote">“Vestibulum quis porttitor dui ! Quisque viverra nunc mi,
+                            a pulvinar purus condimentum“</p>
+                    </div>
+                    <div class="footer__subscribe">
+                        <h2 class="footer__title">subscribe </h2>
+                        <p class="footer_subtitle">for our newletter and promotion</p>
+                        <div class="footer__form"><input placeholder="Enter Your Email" type="text"
+                                class="footer__input"><button type="submit" class="footer__button">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__contacts_wrapper">
+            <div class="container">
+                <ul class="footer__contacts">
+                    <li class="footer__copyright">© 2021 Brand All Rights Reserved. </li>
+                    <li class="footer__icons"><a href="#"><img src="img/f.svg" alt="Facebook" width="32"
+                                height="32"></a><a href="#"><img src="img/i.svg" alt="Instagram" width="32"
+                                height="32"></a><a href="#"><img src="img/p.svg" alt="Pinterest" width="32"
+                                height="32"></a><a href="#"><img src="img/t.svg" alt="Twitter" width="32"
+                                height="32"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="js/menu.js"></script>
+</body>
+
+</html>
