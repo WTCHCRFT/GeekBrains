@@ -276,17 +276,19 @@ body {
 
 .offers_title {
   font-size: 18px;
-  font-weight: 900;
   line-height: 22px;
-  color: #FFFFFF;
+  font-weight: 900;
+  font-style: normal;
+  color: #fff;
   text-transform: uppercase;
 }
 
 .offers__subtitle {
-  color: #E76B7C;
+  color: #F16D7F;
   font-size: 24px;
-  font-weight: 700;
   line-height: 29px;
+  font-weight: 700;
+  font-style: normal;
   text-transform: uppercase;
 }
 

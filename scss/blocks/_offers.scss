@@ -38,18 +38,14 @@
     }
 
     &_title {
-        font-size: 18px;
-        font-weight: 900;
-        line-height: 22px;
-        color: #FFFFFF;
+        @include font(18px, 22px, 900);
+        color: $white;
         text-transform: uppercase;
     }
 
     &__subtitle {
-        color: #E76B7C;
-        font-size: 24px;
-        font-weight: 700;
-        line-height: 29px;
+        color: $pink;
+        @include font(24px, 29px, 700);
         text-transform: uppercase;
 
     }
