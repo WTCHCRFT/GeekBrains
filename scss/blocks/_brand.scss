@@ -5,9 +5,7 @@
     &_title {
         font-family: Lato;
         font-style: normal;
-        font-weight: 900;
-        font-size: 48px;
-        line-height: 58px;
+        @include font(48px, 58px, 900);
         text-transform: uppercase;
     }
 
@@ -21,16 +19,15 @@
 
     &__subtitle {
         display: block;
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 38px;
+        @include font(32px, 38px, 700);
     }
 
     &__subtitle_pink {
-        color: #F16D7F;
+        color: $pink;
     }
 }
 
 .display-block {
     right: 0px;
-    z-index: 3;}
+    z-index: 3;
+}

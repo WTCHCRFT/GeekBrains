@@ -182,9 +182,10 @@ body {
 .brand_title {
   font-family: Lato;
   font-style: normal;
-  font-weight: 900;
   font-size: 48px;
   line-height: 58px;
+  font-weight: 900;
+  font-style: normal;
   text-transform: uppercase;
 }
 
@@ -205,8 +206,9 @@ body {
 .brand__subtitle {
   display: block;
   font-size: 32px;
-  font-weight: 700;
   line-height: 38px;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .brand__subtitle_pink {
