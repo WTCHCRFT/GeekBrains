@@ -18,58 +18,62 @@
         <div class="container">
             <div class="header__wrapper">
                 <div class="header__controls">
-                    <a href="index.html"><img class="header__logo" src="img/logo.svg" alt="Логотип" width="44"
-                            height="38"></a>
+                    <a href="#"><img class="header__logo" src="img/logo.svg" alt="Логотип" width="44" height="38"></a>
                     <img src="img/loupe.svg" alt="Поиск" width="26" height="27">
                     <!-- Нужно ли оборачивать иконку ссылкой? -->
                 </div>
                 <div class="header__controls">
-                    <button class="header__button">
+                    <button class="header__button" id="burger">
                         <img src="img/menu.svg" alt="Кнопка меню" width="32" height="23">
                     </button>
-                    <a href="#" class="header__preson_link"><img src="img/preson.svg" alt="Аккаунт" width="32"
-                            height="32"></a>
+                    <a href="registration.html" class="header__preson_link"><img src="img/preson.svg" alt="Аккаунт"
+                            width="32" height="32"></a>
                     <a href="#"><img src="img/cart.svg" alt="Корзина" width="32" height="29"></a>
                 </div>
             </div>
-            <nav class="header__navigation">
-                menu
-                <ul>
-                    <li>
-                        <h2>man</h2>
-                        <ul>
-                            <li><a href="#">Accessories</a></li>
-                            <li><a href="#">Bags</a> </li>
-                            <li><a href="#">Denim</a> </li>
-                            <li><a href="#">T-Shirts</a> </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h2>woman</h2>
-                        <ul>
-                            <li><a href="#">Accessories</a> </li>
-                            <li><a href="#">Jackets & Coats</a> </li>
-                            <li><a href="#">Polos</a> </li>
-                            <li><a href="#">T-Shirts</a> </li>
-                            <li><a href="#">Shirts</a> </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h2>kids</h2>
-                        <ul>
-                            <li><a href="#">Accessories</a> </li>
-                            <li><a href="#">Jackets & Coats</a> </li>
-                            <li><a href="#">Polos</a> </li>
-                            <li><a href="#">T-Shirts</a> </li>
-                            <li><a href="#">Shirts</a> </li>
-                            <li><a href="#">Bags</a> </li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
         </div>
+        <nav class="header__navigation" id="menu">
+            <button class="header__button" id="burger2">
+                <img src="img/x.svg" alt="Кнопка меню" width="12" height="12">
+            </button>
+            <h2 class="header_menu-title">Menu</h2>
+            <ul class="header_list">
+                <li class="header_item">
+                    <h2 class="header_menu-subtitle">man</h2>
+                    <ul class="header_sublist">
+                        <li class="header_item"><a href="#">Accessories</a></li>
+                        <li class="header_item"><a href="#">Bags</a> </li>
+                        <li class="header_item"><a href="#">Denim</a> </li>
+                        <li class="header_item"><a href="#">T-Shirts</a> </li>
+                    </ul>
+                </li>
+                <li class="header_item">
+                    <h2 class="header_menu-subtitle">woman</h2>
+                    <ul class="header_sublist">
+                        <li class="header_item"><a href="#">Accessories</a> </li>
+                        <li class="header_item"><a href="#">Jackets & Coats</a> </li>
+                        <li class="header_item"><a href="#">Polos</a> </li>
+                        <li class="header_item"><a href="#">T-Shirts</a> </li>
+                        <li class="header_item"><a href="#">Shirts</a> </li>
+                    </ul>
+                </li>
+                <li class="header_item">
+                    <h2 class="header_menu-subtitle">kids</h2>
+                    <ul class="header_sublist">
+                        <li class="header_item"><a href="#">Accessories</a> </li>
+                        <li class="header_item"><a href="#">Jackets & Coats</a> </li>
+                        <li class="header_item"><a href="#">Polos</a> </li>
+                        <li class="header_item"><a href="#">T-Shirts</a> </li>
+                        <li class="header_item"><a href="#">Shirts</a> </li>
+                        <li><a href="#">Bags</a> </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
     </header>
     <main class="registration">
+        <div class="wrp" id="wrp"></div>
         <div class="registration__breadclumb">
             <div class="container">
                 <h1 class="registration__title">registration</h1>
@@ -111,7 +115,7 @@
                                 <li><input class="input-text" required type="password" name="Password"
                                         placeholder="Password">
                                 </li>
-                                <p class="registretion__input-text">Please use 8 or more characters, with at least 1
+                                <p class="registration__input-text">Please use 8 or more characters, with at least 1
                                     number
                                     and a mixture of uppercase
                                     and lowercase letters</p>
@@ -175,6 +179,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/menu.js"></script>
 </body>
 
 </html>

@@ -1,9 +1,9 @@
 .header {
-    background-color: #222222;
+    background-color: $mine-shaft;
     position: relative;
 
     &__navigation {
-        background: #FFFFFF;
+        background: $white;
         width: 232px;
         height: 765px;
         padding: 35px;
@@ -14,25 +14,21 @@
     }
 
     &_menu-title {
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 17px;
-        color: #000000;
+        @include font(14px, 17px, 900);
+        color: $black;
         text-transform: uppercase;
         margin: 0 0 24px 0;
     }
 
     &_menu-subtitle {
-        font-size: 14px;
-        line-height: 17px;
-        color: #F16D7F;
+        @include font(14px, 17px);
+        color: $pink;
         text-transform: uppercase;
         margin: 20px 0 12px 0;
     }
 
     &_item a {
-        font-size: 14px;
-        line-height: 17px;
+        @include font(14px, 17px);
         color: #6F6E6E;
         text-decoration: none;
     }

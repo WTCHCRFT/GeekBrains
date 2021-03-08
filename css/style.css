@@ -95,7 +95,7 @@ body {
 }
 
 .header__navigation {
-  background: #FFFFFF;
+  background: #fff;
   width: 232px;
   height: 765px;
   padding: 35px;
@@ -108,10 +108,11 @@ body {
 }
 
 .header_menu-title {
-  font-weight: bold;
   font-size: 14px;
   line-height: 17px;
-  color: #000000;
+  font-weight: 900;
+  font-style: normal;
+  color: #000;
   text-transform: uppercase;
   margin: 0 0 24px 0;
 }
@@ -119,6 +120,8 @@ body {
 .header_menu-subtitle {
   font-size: 14px;
   line-height: 17px;
+  font-weight: 400;
+  font-style: normal;
   color: #F16D7F;
   text-transform: uppercase;
   margin: 20px 0 12px 0;
@@ -127,6 +130,8 @@ body {
 .header_item a {
   font-size: 14px;
   line-height: 17px;
+  font-weight: 400;
+  font-style: normal;
   color: #6F6E6E;
   text-decoration: none;
 }
