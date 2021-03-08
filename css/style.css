@@ -305,17 +305,19 @@ body {
 
 .fetured__title {
   font-size: 30px;
-  font-weight: 400;
   line-height: 36px;
+  font-weight: 400;
+  font-style: normal;
   color: #222222;
 }
 
 .fetured__subtitle {
   font-size: 14px;
-  font-weight: 400;
   line-height: 17px;
+  font-weight: 400;
+  font-style: normal;
   margin: 6px 0 42px 0;
-  color: #9F9F9F;
+  color: #5D5D5D;
 }
 
 .fetured__list {
@@ -349,30 +351,34 @@ body {
 
 .fetured__itemTitle {
   font-size: 13px;
-  font-weight: 400;
   line-height: 16px;
+  font-weight: 400;
+  font-style: normal;
   text-transform: uppercase;
   margin: 25px 0 13px 0;
 }
 
 .fetured__itemSubtitle {
   font-size: 14px;
-  font-weight: 300;
   line-height: 17px;
+  font-weight: 300;
+  font-style: normal;
   color: #5D5D5D;
 }
 
 .fetured__price {
   font-size: 16px;
   line-height: 19px;
+  font-weight: 400;
+  font-style: normal;
   color: #F16D7F;
   margin: 18px 0 0 0;
 }
 
 .fetured__button {
-  border: 1px solid #FF6A6A;
+  border: 1px solid #F16D7F;
   padding: 14px 38px;
-  color: #F26376;
+  color: #F16D7F;
   text-decoration: none;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -418,11 +424,13 @@ body {
   left: 50%;
   font-size: 14px;
   line-height: 17px;
-  color: #FFFFFF;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
   background-color: transparent;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  border: 1px solid #FFFFFF;
+  border: 1px solid #fff;
   padding: 13px 15px 12px 50px;
 }
 
