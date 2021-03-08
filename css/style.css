@@ -228,6 +228,9 @@ body {
     margin:0 0 30px 0;
 
 }
+.fetured__item img {
+    display: block; 
+}
 .overlay_wrapper {
     overflow: hidden;
     position: relative;
