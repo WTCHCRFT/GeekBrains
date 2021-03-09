@@ -37,7 +37,7 @@
         flex-grow: 1;
     }
 
-    &_title {
+    &__title {
         @include font(18px, 22px, 900);
         color: $white;
         text-transform: uppercase;

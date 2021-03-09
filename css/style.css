@@ -288,7 +288,7 @@ body {
           flex-grow: 1;
 }
 
-.offers_title {
+.offers__title {
   font-size: 18px;
   line-height: 22px;
   font-weight: 900;
