@@ -1,0 +1,25 @@
+.advantages {
+    padding: 104px 0;
+    background: $mine-shaft;
+    margin: 95px 0 0 0;
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        min-width: 360px;
+    }
+
+    &__itemTitle {
+        @include font(20px, 24px, 400);
+        color: #FBFBFB;
+        margin: 28px 0 16px 0;
+
+    }
+
+    &__itemSubtitle {
+        @include font(14px, 17px, 300);
+        color: #FBFBFB;
+    }
+}

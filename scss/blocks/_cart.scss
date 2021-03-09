@@ -1,0 +1,171 @@
+.cart {
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        padding: 96px 0 128px 0;
+    }
+
+    &__text-block {
+        padding: 22px 0 0 31px;
+        width: 262px;
+    }
+
+    &__items {
+        min-width: 650px;
+    }
+
+    &__card {
+        display: flex;
+        max-height: 306px;
+        margin-bottom: 40px;
+        -webkit-box-shadow: 7px 11px 14px 5px rgba(0, 0, 0, 0.3);
+        box-shadow: 7px 11px 14px 5px rgba(0, 0, 0, 0.3);
+
+    }
+
+    &__title {
+        @include font(24px, 29px);
+        color: $mine-shaft;
+        margin-bottom: 42px;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        color: #575757;
+        @include font(22px, 26px);
+        margin-bottom: 6px;
+    }
+
+    &__img {
+        height: 100%;
+    }
+
+    &__price {
+        &:after {
+            content: ' $300';
+            color: $pink;
+        }
+    }
+
+    &__color {
+        &:after {
+            content: ' Red';
+        }
+    }
+
+    &__size {
+        &:after {
+            content: ' XL';
+        }
+    }
+
+    &__quantity {
+        &:after {
+            content: ' 2';
+            margin-left: 24px;
+            border: 1px solid #EAEAEA;
+            padding: 1px 16px;
+        }
+    }
+
+    &__controls {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__card-button {
+        @include font(14px, 17px);
+        border: 1px solid #A4A4A4;
+        text-transform: uppercase;
+        padding: 16px 39px;
+        background: $white;
+        margin-top: 72px;
+        text-decoration: none;
+        color: $black;
+    }
+
+    &__form {
+        width: 360px;
+        box-sizing: border-box;
+    }
+
+    &__lagend {
+        @include font(16px, 19px, 300);
+        color: $mine-shaft;
+        text-transform: uppercase;
+    }
+
+    &__input {
+        box-sizing: border-box;
+        border: 1px solid #A4A4A4;
+        margin-top: 20px;
+        width: 360px;
+        padding: 13px 0 16px 17px;
+        @include font(16px, 19px, 300);
+        color: $mine-shaft;
+    }
+
+    &__quote {
+        border: 1px solid #A4A4A4;
+        margin-top: 24px;
+        padding: 10px 14px;
+        @include font(11px, 13px, 300);
+        color: $mine-shaft;
+        background: $white;
+        text-transform: uppercase;
+
+    }
+
+    &__total-wrapper {
+        box-sizing: border-box;
+        margin-top: 57px;
+        width: 360px;
+        background: $soft-peach;
+        padding: 43px;
+        text-align: right;
+    }
+
+    &__subtotal {
+        @include font(11px, 13px, 300);
+        color: $mine-shaft;
+        text-transform: uppercase;
+
+        &:after {
+            content: ' $900';
+            margin-left: 20px;
+
+        }
+    }
+
+    &__grandtotal {
+        @include font(16px, 19px, 300);
+        color: $mine-shaft;
+        text-transform: uppercase;
+        margin-top: 12px;
+
+        &:after {
+            content: ' $900';
+            color: $pink;
+            margin-left: 20px;
+            font-weight: 900;
+        }
+    }
+
+    &__hr {
+        height: 1px;
+        width: 100%;
+        background: #E2E2E2;
+        margin-top: 21px;
+    }
+
+    &__button {
+        margin-top: 17px;
+        @include font(16px, 19px, 300);
+        background: $pink;
+        border: none;
+        padding: 16px 0;
+        width: 100%;
+        color: $white;
+        text-transform: uppercase;
+    }
+}

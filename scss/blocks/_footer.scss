@@ -1,0 +1,87 @@
+.footer {
+    &__info_wrapper {
+        background-image: url(../img/footer_bg.jpg);
+        background-size: cover;
+        padding: 86px 0 126px 0;
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 360px;
+    }
+
+    &__quote {
+        text-align: center;
+        margin: 30px 0 0 0;
+        @include font(20px, 24px, );
+    }
+
+    &__subscribe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 360px;
+    }
+
+    &__title {
+        @include font(24px, 38px, 700);
+        text-transform: uppercase;
+    }
+
+    &_subtitle {
+        @include font(18px, 30px, 400);
+        text-transform: uppercase;
+        margin: 5px 0 32px 0;
+
+    }
+
+    &__form {
+        display: flex;
+    }
+
+    &__input {
+        height: 49px;
+        border-top-left-radius: 35px;
+        border-bottom-left-radius: 35px;
+        background: #E1E1E1;
+        border: none;
+        padding: 0 0 0 27px;
+        width: 256px;
+    }
+
+    &__button {
+        height: 49px;
+        border-top-right-radius: 35px;
+        border-bottom-right-radius: 35px;
+        background: $pink;
+        width: 100px;
+        border: none;
+        color: $white;
+    }
+
+    &__contacts_wrapper {
+        background: $mine-shaft;
+    }
+
+    &__contacts {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__icons {
+        margin: 23px 0 23px 0
+    }
+
+    &__copyright {
+        color: $white;
+    }
+}

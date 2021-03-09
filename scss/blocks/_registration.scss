@@ -1,0 +1,115 @@
+.registration {
+    
+
+
+
+    &__forms {
+        padding-top: 64px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__lagend {
+        @include font(16px, 19px, 300);
+        padding: 0 0 20px 0;
+    }
+
+    &__item_padding {
+        padding-bottom: 35px;
+    }
+
+    .input-text,
+    .input-label {
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+
+    }
+
+    .input-label {
+        margin-right: 15px;
+    }
+
+    .input-text {
+        min-width: 360px;
+        min-height: 45px;
+        margin: 0 0 21px 0;
+        padding: 0 0 0 16px;
+        border: 1px solid #A4A4A4;
+        color: #B1B1B1;
+        transition: all 0.5s ease;
+    }
+
+    &__input-text {
+        @include font(13px, 16px, 300);
+        color: #B1B1B1;
+        max-width: 360px;
+        margin: 0 0 39px 0;
+    }
+
+    &__perks {
+        max-width: 650px;
+    }
+
+    &__button {
+        background: $pink;
+        padding: 16px 0 16px 29px;
+        border: none;
+        font-weight: normal;
+        font-size: 14px;
+        color: $white;
+        text-transform: uppercase;
+        margin: 0 0 96px 0;
+        transition: all 0.5s ease;
+    }
+
+    &__button-img {
+        margin: 0 20px 0 20px;
+    }
+
+    &__title-perks {
+        @include font(24px, 29px, 300);
+        text-transform: uppercase;
+        margin-bottom: 22px;
+    }
+
+    &__text-perks {
+        @include font(24px, 29px, 300);
+        margin-bottom: 22px;
+    }
+
+    &__item-preks {
+        @include font(24px, 29px, 300);
+        margin-bottom: 16px;
+        padding: 0 0 0 54px;
+        position: relative;
+    }
+
+    &__item-preks::before {
+        content: ' ';
+        position: absolute;
+        width: 20px;
+        height: 16px;
+        background-image: url(../img/perks-check.svg);
+        left: 0px;
+        top: 7px;
+    }
+
+    .radio-input {
+        margin: 0 5px 0 0;
+    }
+
+    .input-text:focus {
+        -webkit-box-shadow: 0px 8px 15px 5px rgba(241, 109, 127, 0.45);
+        box-shadow: 0px 8px 15px 5px rgba(241, 109, 127, 0.45);
+        outline: none;
+    }
+
+    &__button:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        -webkit-box-shadow: 0px 8px 15px 5px rgba(241, 109, 127, 0.45);
+        box-shadow: 0px 8px 15px 5px rgba(241, 109, 127, 0.45);
+
+    }
+}
