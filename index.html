@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -8,9 +8,7 @@
     <title>HomeWork</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
@@ -21,7 +19,6 @@
                     <a href="index.htm"><img class="header__logo" src="img/logo.svg" alt="Логотип" width="44"
                             height="38"></a>
                     <img src="img/loupe.svg" alt="Поиск" width="26" height="27">
-                    <!-- Нужно ли оборачивать иконку ссылкой? -->
                 </div>
                 <div class="header__controls">
                     <button class="header__button" id="burger">
@@ -29,11 +26,12 @@
                     </button>
                     <a href="registration.html" class="header__preson_link"><img src="img/preson.svg" alt="Аккаунт"
                             width="32" height="32"></a>
-                    <a href="cart.html"><img src="img/cart.svg" alt="Корзина" width="32" height="29"></a>
+                    <a href="cart.html" class="header__cart_link"><img src="img/cart.svg" alt="Корзина" width="32"
+                            height="29"></a>
                 </div>
             </div>
         </div>
-        <nav class="header__navigation" id="menu">
+        <!-- <nav class="header__navigation" id="menu">
             <button class="header__button" id="burger2">
                 <img src="img/x.svg" alt="Кнопка меню" width="12" height="12">
             </button>
@@ -70,19 +68,19 @@
                     </ul>
                 </li>
             </ul>
-        </nav>
+        </nav> -->
 
     </header>
     <main>
         <section class="brand">
             <div class="wrp" id="wrp"></div>
-            <img src="img/man.png" alt="Мужчина в куртке" width="800" height="765">
+            <img class="brand__img" src="img/man.png" alt="Мужчина в куртке" width="800" height="765">
             <div class="brand__title_wrapper">
                 <h1 class="brand_title"> the brand<span class="brand__subtitle"> of luxerious <span
                             class="brand__subtitle_pink">fashion</span></span></h1>
             </div>
         </section>
-        <section class="offers">
+        <!-- <section class="offers">
             <div class="container">
                 <h2 class="visually-hidden">offers</h2>
                 <ul class="offers__list">
@@ -271,8 +269,8 @@
                 </ul>
             </div>
         </div>
-    </footer>
-    <script src="js/menu.js"></script>
+    </footer> -->
+        <script src="js/menu.js"></script>
 </body>
 
 </html>

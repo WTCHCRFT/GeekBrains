@@ -20,8 +20,12 @@ body {
 }
 
 .container {
-    width: 1138px;
+    width: 71%;
     margin: 0 auto;
+
+    @include tablet {
+        width: 96%;
+    }
 }
 
 .wrp {
