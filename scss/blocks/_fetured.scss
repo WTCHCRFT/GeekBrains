@@ -21,12 +21,24 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+
+        @include tablet {
+            justify-content: space-around;
+        }
     }
 
     &__item {
-        max-width: 360px;
+        max-width: 32%;
         background: #F8F8F8;
         margin: 0 0 30px 0;
+
+        @include tablet {
+            max-width: 49%;
+        }
+
+        @include mobile {
+            max-width: 100%;
+        }
 
     }
 
