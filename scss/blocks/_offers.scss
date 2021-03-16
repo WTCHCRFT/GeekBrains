@@ -7,17 +7,27 @@
 
     &__item {
         background: rgba(33, 22, 22, 0.7);
-        width: 360px;
+        background-size: cover;
+        width: 32%;
         min-height: 260px;
         margin: 0 0 30px 0;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+
+        @include tablet {
+            min-height: 180px;
+        }
+
+        @include mobile {
+            width: 100%;
+        }
     }
 
     &__item_women {
         background-image: url(../img/for_women.jpg);
+        background-size: cover;
     }
 
     &__item_women {
@@ -41,12 +51,20 @@
         @include font(18px, 22px, 900);
         color: $white;
         text-transform: uppercase;
+
+        @include w875 {
+            @include font(14px, 18px);
+        }
     }
 
     &__subtitle {
         color: $pink;
         @include font(24px, 29px, 700);
         text-transform: uppercase;
+
+        @include w875 {
+            @include font(20px, 25px);
+        }
 
     }
 }
