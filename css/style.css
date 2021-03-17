@@ -72,12 +72,6 @@ body {
   margin: 0 auto;
 }
 
-@media (max-width: 768px) {
-  .container {
-    width: 96%;
-  }
-}
-
 .wrp {
   display: none;
   position: absolute;
@@ -125,6 +119,7 @@ body {
   transition: all 0.4s ease;
   position: absolute;
   right: -900px;
+  display: none;
 }
 
 .header_menu-title {
@@ -184,30 +179,12 @@ body {
   margin: 0 34px 0 0;
 }
 
-@media (max-width: 375px) {
-  .header__button {
-    margin: 0;
-  }
-}
-
 .header__logo {
   margin: 0 41px 0 0;
 }
 
 .header__preson_link {
   margin: 0 34px 0 0;
-}
-
-@media (max-width: 375px) {
-  .header__preson_link {
-    display: none;
-  }
-}
-
-@media (max-width: 375px) {
-  .header__cart_link {
-    display: none;
-  }
 }
 
 .brand {
@@ -229,42 +206,9 @@ body {
   border-left: 12px solid #F16D7F;
 }
 
-@media (max-width: 768px) {
-  .brand_title {
-    font-size: 43px;
-    line-height: 51px;
-    font-weight: 400;
-    font-style: normal;
-  }
-}
-
-@media (max-width: 875px) {
-  .brand_title {
-    font-size: 39px;
-    line-height: 46px;
-    font-weight: 400;
-    font-style: normal;
-  }
-}
-
-@media (max-width: 575px) {
-  .brand_title {
-    font-size: 38px;
-    line-height: 45px;
-    font-weight: 400;
-    font-style: normal;
-  }
-}
-
 .brand__img {
   width: 50%;
   height: auto;
-}
-
-@media (max-width: 575px) {
-  .brand__img {
-    display: none;
-  }
 }
 
 .brand__title_wrapper {
@@ -281,64 +225,12 @@ body {
   padding: 0 0 0 92px;
 }
 
-@media (max-width: 768px) {
-  .brand__title_wrapper {
-    padding: 0 0 0 42px;
-  }
-}
-
-@media (max-width: 875px) {
-  .brand__title_wrapper {
-    padding: 0 0 0 31px;
-  }
-}
-
-@media (max-width: 575px) {
-  .brand__title_wrapper {
-    min-height: 363px;
-    padding: 0;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-}
-
 .brand__subtitle {
   display: block;
   font-size: 32px;
   line-height: 38px;
   font-weight: 700;
   font-style: normal;
-}
-
-@media (max-width: 768px) {
-  .brand__subtitle {
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 400;
-    font-style: normal;
-  }
-}
-
-@media (max-width: 875px) {
-  .brand__subtitle {
-    font-size: 30px;
-    line-height: 30px;
-    font-weight: 400;
-    font-style: normal;
-  }
-}
-
-@media (max-width: 575px) {
-  .brand__subtitle {
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 400;
-    font-style: normal;
-  }
 }
 
 .brand__subtitle_pink {
@@ -348,6 +240,7 @@ body {
 .display-block {
   right: 0px;
   z-index: 3;
+  display: block;
 }
 
 .offers__list {
@@ -1156,5 +1049,92 @@ body {
   width: 100%;
   color: #fff;
   text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 96%;
+  }
+  .brand_title {
+    font-size: 47px;
+    line-height: 56px;
+    font-weight: 900;
+    font-style: normal;
+  }
+  .brand__subtitle {
+    font-size: 27px;
+    line-height: 32px;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .brand__title_wrapper {
+    padding-left: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    min-width: 91%;
+  }
+  .header__preson_link {
+    display: none;
+  }
+  .header__cart_link {
+    display: none;
+  }
+  .header__button {
+    margin: 0;
+  }
+  .brand_title {
+    font-size: 44px;
+    line-height: 53px;
+    font-weight: 900;
+    font-style: normal;
+  }
+  .brand__subtitle {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .brand__title_wrapper {
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 632px) {
+  .brand {
+    min-height: 363px;
+  }
+  .brand__title_wrapper {
+    padding-left: 0px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .brand__img {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .header__wrapper {
+    min-height: 55px;
+  }
+  .brand_title {
+    font-size: 38px;
+    line-height: 46px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .brand__subtitle {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    font-style: normal;
+  }
 }
 /*# sourceMappingURL=style.css.map */
