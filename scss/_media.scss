@@ -1,3 +1,35 @@
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .offers__item {
+        flex-grow: 1;
+    }
+
+    .offers__item_women {
+        margin-right: 25px;
+    }
+
+    .offers__item_kids {
+        margin-right: 25px;
+    }
+
+    .fetured__list {
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1130px) {
+    .offers__item {
+        flex-grow: 1;
+    }
+
+    .offers__item_women {
+        margin-right: 25px;
+    }
+
+    .offers__item_kids {
+        margin-right: 25px;
+    }
+}
+
 @media (max-width: 1200px) {
     .container {
         width: 96%;
@@ -14,6 +46,10 @@
 
     .brand__title_wrapper {
         padding-left: 80px;
+    }
+
+    .fetured__list {
+        justify-content: space-around;
     }
 }
 
@@ -46,6 +82,39 @@
     .brand__title_wrapper {
         padding-left: 40px;
     }
+
+    .offers__item {
+        min-width: 32%;
+        min-height: 150px;
+    }
+
+    .offers__item_accesories {
+        min-height: 110px;
+    }
+
+    .advantages {
+        padding: 0 0 48px 0;
+    }
+
+    .advantages__list {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .advantages__item {
+        max-width: 360px;
+        padding-top: 48px;
+    }
+}
+
+@media (min-width: 632px) and (max-width: 768px) {
+    .offers__title {
+        @include font(16px, 19px);
+    }
+
+    .offers__subtitle {
+        @include font(22px, 26px, 700);
+    }
 }
 
 @media (max-width: 632px) {
@@ -63,7 +132,17 @@
     .brand__img {
         display: none;
     }
+
+    .offers__item {
+        min-width: 100%;
+        min-height: 247px;
+    }
+
+    .offers__item_accesories {
+        min-height: 111px;
+    }
 }
+
 
 @media (max-width: 375px) {
 
@@ -80,7 +159,24 @@
         @include font(20px, 24px, 700);
     }
 
+    .fetured__item {
+        max-width: 316px;
+    }
 
+    &__item img {
+        width: 100%;
+    }
 
+    .advantages__list {
+        min-width: 310px;
+    }
 
+    .advantages__item {
+        max-width: 300px;
+        padding-top: 28px;
+    }
+
+    .footer__input {
+        width: auto;
+    }
 }
