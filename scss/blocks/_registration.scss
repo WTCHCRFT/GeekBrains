@@ -1,5 +1,5 @@
 .registration {
-    
+
 
 
 
@@ -38,6 +38,7 @@
         border: 1px solid #A4A4A4;
         color: #B1B1B1;
         transition: all 0.5s ease;
+        box-sizing: border-box;
     }
 
     &__input-text {
@@ -49,6 +50,7 @@
 
     &__perks {
         max-width: 650px;
+        margin-left: 70px;
     }
 
     &__button {

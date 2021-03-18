@@ -1,0 +1,278 @@
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .offers__item {
+        flex-grow: 1;
+    }
+
+    .offers__item_women {
+        margin-right: 25px;
+    }
+
+    .offers__item_kids {
+        margin-right: 25px;
+    }
+
+    .fetured__list {
+        justify-content: space-around;
+    }
+
+    .cart__block {
+        flex-direction: column;
+    }
+
+    .cart__forms {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cart__forms-wrapper {
+        margin-top: 65px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1130px) {
+    .offers__item {
+        flex-grow: 1;
+    }
+
+    .offers__item_women {
+        margin-right: 25px;
+    }
+
+    .offers__item_kids {
+        margin-right: 25px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 96%;
+    }
+
+    .brand_title {
+        @include font(47px, 56px, 900);
+
+    }
+
+    .brand__subtitle {
+        @include font(27px, 32px, 700);
+    }
+
+    .brand__title_wrapper {
+        padding-left: 80px;
+    }
+
+    .fetured__list {
+        justify-content: space-around;
+    }
+
+    .input-text {
+        min-width: 330px;
+    }
+
+
+
+    .registration__title-perks {
+        @include font(16px, 19px, 300);
+    }
+
+    .registration__text-perks {
+        @include font(16px, 19px, 300);
+    }
+
+    .registration__item-preks {
+        @include font(16px, 19px, 300);
+    }
+
+    .cart__block {
+        flex-direction: column;
+    }
+
+    .cart__forms {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cart__forms-wrapper {
+        margin-top: 65px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        min-width: 91%;
+    }
+
+    .header__preson_link {
+        display: none;
+    }
+
+    .header__cart_link {
+        display: none;
+    }
+
+    .header__button {
+        margin: 0;
+    }
+
+    .brand_title {
+        @include font(44px, 53px, 900);
+
+    }
+
+    .brand__subtitle {
+        @include font(24px, 29px, 700);
+    }
+
+    .brand__title_wrapper {
+        padding-left: 40px;
+    }
+
+    .offers__item {
+        min-width: 32%;
+        min-height: 150px;
+    }
+
+    .offers__item_accesories {
+        min-height: 110px;
+    }
+
+    .advantages {
+        padding: 0 0 48px 0;
+    }
+
+    .advantages__list {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .advantages__item {
+        max-width: 360px;
+        padding-top: 48px;
+    }
+
+    .cart__items {
+        min-width: 310px;
+    }
+
+    .cart__card {
+        max-height: 188px;
+    }
+
+    .cart__img {
+        height: 188px;
+    }
+
+    .cart__forms {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cart__title {
+        @include font(16px, 19px);
+        margin-bottom: 21px;
+    }
+
+    .cart__text {
+        @include font(16px, 19px);
+    }
+
+    .cart__input {
+        width: 310px;
+    }
+
+    .cart__total-wrapper {
+        width: 310px;
+    }
+
+    .cart__text-block {
+        padding: 5px 0 0 10px;
+    }
+}
+
+@media (min-width: 632px) and (max-width: 768px) {
+    .offers__title {
+        @include font(16px, 19px);
+    }
+
+    .offers__subtitle {
+        @include font(22px, 26px, 700);
+    }
+}
+
+@media (max-width: 632px) {
+
+    .brand {
+        min-height: 363px;
+    }
+
+    .brand__title_wrapper {
+        padding-left: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .brand__img {
+        display: none;
+    }
+
+    .offers__item {
+        min-width: 100%;
+        min-height: 247px;
+    }
+
+    .offers__item_accesories {
+        min-height: 111px;
+    }
+
+    .registration__forms {
+        flex-direction: column;
+    }
+
+    .registration .input-text {
+        width: 100%;
+        min-width: 310px;
+    }
+
+    .registration__perks {
+        margin: 0 0 40px 0;
+    }
+}
+
+
+@media (max-width: 375px) {
+
+    .header__wrapper {
+        min-height: 55px;
+
+    }
+
+    .brand_title {
+        @include font(38px, 46px);
+    }
+
+    .brand__subtitle {
+        @include font(20px, 24px, 700);
+    }
+
+    .fetured__item {
+        max-width: 316px;
+    }
+
+    &__item img {
+        width: 100%;
+    }
+
+    .advantages__list {
+        min-width: 310px;
+    }
+
+    .advantages__item {
+        max-width: 300px;
+        padding-top: 28px;
+    }
+
+    .footer__input {
+        width: auto;
+    }
+}

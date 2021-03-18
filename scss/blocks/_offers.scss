@@ -9,20 +9,13 @@
         background: rgba(33, 22, 22, 0.7);
         background-size: cover;
         width: 32%;
+        min-width: 350px;
         min-height: 260px;
         margin: 0 0 30px 0;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-
-        @include tablet {
-            min-height: 180px;
-        }
-
-        @include mobile {
-            width: 100%;
-        }
     }
 
     &__item_women {
@@ -44,6 +37,7 @@
 
     &__item_accesories {
         background-image: url(../img/accesories.jpg);
+        min-height: 180px;
         flex-grow: 1;
     }
 
@@ -51,20 +45,11 @@
         @include font(18px, 22px, 900);
         color: $white;
         text-transform: uppercase;
-
-        @include w875 {
-            @include font(14px, 18px);
-        }
     }
 
     &__subtitle {
         color: $pink;
         @include font(24px, 29px, 700);
         text-transform: uppercase;
-
-        @include w875 {
-            @include font(20px, 25px);
-        }
-
     }
 }

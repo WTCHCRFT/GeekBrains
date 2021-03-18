@@ -10,7 +10,8 @@
         box-sizing: border-box;
         transition: all 0.4s ease;
         position: absolute;
-        right: -900px;
+        right: 0;
+        display: none;
     }
 
     &_menu-title {
@@ -55,10 +56,6 @@
         background-color: transparent;
         border: none;
         margin: 0 34px 0 0;
-
-        @include mobile {
-            margin: 0;
-        }
     }
 
     &__logo {
@@ -67,15 +64,7 @@
 
     &__preson_link {
         margin: 0 34px 0 0;
-
-        @include mobile {
-            display: none;
-        }
     }
 
-    &__cart_link {
-        @include mobile {
-            display: none;
-        }
-    }
+    &__cart_link {}
 }
