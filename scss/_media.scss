@@ -14,6 +14,19 @@
     .fetured__list {
         justify-content: space-around;
     }
+
+    .cart__block {
+        flex-direction: column;
+    }
+
+    .cart__forms {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cart__forms-wrapper {
+        margin-top: 65px;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1130px) {
@@ -28,6 +41,7 @@
     .offers__item_kids {
         margin-right: 25px;
     }
+
 }
 
 @media (max-width: 1200px) {
@@ -68,6 +82,19 @@
 
     .registration__item-preks {
         @include font(16px, 19px, 300);
+    }
+
+    .cart__block {
+        flex-direction: column;
+    }
+
+    .cart__forms {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cart__forms-wrapper {
+        margin-top: 65px;
     }
 }
 
@@ -122,6 +149,44 @@
     .advantages__item {
         max-width: 360px;
         padding-top: 48px;
+    }
+
+    .cart__items {
+        min-width: 310px;
+    }
+
+    .cart__card {
+        max-height: 188px;
+    }
+
+    .cart__img {
+        height: 188px;
+    }
+
+    .cart__forms {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cart__title {
+        @include font(16px, 19px);
+        margin-bottom: 21px;
+    }
+
+    .cart__text {
+        @include font(16px, 19px);
+    }
+
+    .cart__input {
+        width: 310px;
+    }
+
+    .cart__total-wrapper {
+        width: 310px;
+    }
+
+    .cart__text-block {
+        padding: 5px 0 0 10px;
     }
 }
 
