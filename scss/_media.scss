@@ -51,6 +51,24 @@
     .fetured__list {
         justify-content: space-around;
     }
+
+    .input-text {
+        min-width: 330px;
+    }
+
+
+
+    .registration__title-perks {
+        @include font(16px, 19px, 300);
+    }
+
+    .registration__text-perks {
+        @include font(16px, 19px, 300);
+    }
+
+    .registration__item-preks {
+        @include font(16px, 19px, 300);
+    }
 }
 
 @media (max-width: 768px) {
@@ -140,6 +158,19 @@
 
     .offers__item_accesories {
         min-height: 111px;
+    }
+
+    .registration__forms {
+        flex-direction: column;
+    }
+
+    .registration .input-text {
+        width: 100%;
+        min-width: 310px;
+    }
+
+    .registration__perks {
+        margin: 0 0 40px 0;
     }
 }
 

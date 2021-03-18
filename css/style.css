@@ -702,6 +702,8 @@ body {
   color: #B1B1B1;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .registration__input-text {
@@ -716,6 +718,7 @@ body {
 
 .registration__perks {
   max-width: 650px;
+  margin-left: 70px;
 }
 
 .registration__button {
@@ -1044,6 +1047,27 @@ body {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
+  .input-text {
+    min-width: 330px;
+  }
+  .registration__title-perks {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .registration__text-perks {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .registration__item-preks {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 300;
+    font-style: normal;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1136,6 +1160,19 @@ body {
   }
   .offers__item_accesories {
     min-height: 111px;
+  }
+  .registration__forms {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .registration .input-text {
+    width: 100%;
+    min-width: 310px;
+  }
+  .registration__perks {
+    margin: 0 0 40px 0;
   }
 }
 
