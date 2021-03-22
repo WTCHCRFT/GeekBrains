@@ -2,7 +2,7 @@
     display: flex;
     margin: 0 0 63px 0;
 
-    &_title {
+    &__title {
         font-family: Lato;
         font-style: normal;
         @include font(48px, 58px, 900);
@@ -16,7 +16,7 @@
         height: auto;
     }
 
-    &__title_wrapper {
+    &__title-wrapper {
         background-color: #F1E4E6;
         flex-grow: 1;
         display: flex;

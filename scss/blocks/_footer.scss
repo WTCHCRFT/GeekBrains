@@ -1,5 +1,5 @@
 .footer {
-    &__info_wrapper {
+    &__info-wrapper {
         background-image: url(../img/footer_bg.jpg);
         background-size: cover;
         padding: 86px 0 126px 0;
@@ -44,7 +44,7 @@
         text-transform: uppercase;
     }
 
-    &_subtitle {
+    &__subtitle {
         @include font(18px, 30px, 400);
         text-transform: uppercase;
         margin: 5px 0 32px 0;
@@ -94,7 +94,7 @@
 
     }
 
-    &__contacts_wrapper {
+    &__contacts-wrapper {
         background: $mine-shaft;
     }
 

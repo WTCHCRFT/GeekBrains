@@ -52,7 +52,7 @@
         display: none;
     }
 
-    &_menu-title {
+    &__menu-title {
         @include font(14px, 17px, 900);
         color: $black;
         text-transform: uppercase;
@@ -61,14 +61,14 @@
 
     }
 
-    &_menu-subtitle {
+    &__menu-subtitle {
         @include font(14px, 17px);
         color: $pink;
         text-transform: uppercase;
         margin: 20px 0 12px 0;
     }
 
-    &_item a {
+    &__item a {
         @include font(14px, 17px);
         color: #6F6E6E;
         text-decoration: none;
@@ -79,7 +79,7 @@
         left: 150px;
     }
 
-    &_item {
+    &__item {
         margin: 0 0 12px 0;
     }
 
@@ -101,9 +101,9 @@
         margin: 0 41px 0 0;
     }
 
-    &__preson_link {
+    &__preson {
         margin: 0 34px 0 0;
     }
 
-    // &__cart_link {}
+    // &__cart{}
 }

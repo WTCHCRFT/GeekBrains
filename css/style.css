@@ -165,7 +165,7 @@ body {
   display: none;
 }
 
-.header_menu-title {
+.header__menu-title {
   font-size: 14px;
   line-height: 17px;
   font-weight: 900;
@@ -175,7 +175,7 @@ body {
   margin: 0 0 24px 0;
 }
 
-.header_menu-subtitle {
+.header__menu-subtitle {
   font-size: 14px;
   line-height: 17px;
   font-weight: 400;
@@ -185,7 +185,7 @@ body {
   margin: 20px 0 12px 0;
 }
 
-.header_item a {
+.header__item a {
   font-size: 14px;
   line-height: 17px;
   font-weight: 400;
@@ -199,7 +199,7 @@ body {
   left: 150px;
 }
 
-.header_item {
+.header__item {
   margin: 0 0 12px 0;
 }
 
@@ -227,7 +227,7 @@ body {
   margin: 0 41px 0 0;
 }
 
-.header__preson_link {
+.header__preson {
   margin: 0 34px 0 0;
 }
 
@@ -238,7 +238,7 @@ body {
   margin: 0 0 63px 0;
 }
 
-.brand_title {
+.brand__title {
   font-family: Lato;
   font-style: normal;
   font-size: 48px;
@@ -255,7 +255,7 @@ body {
   height: auto;
 }
 
-.brand__title_wrapper {
+.brand__title-wrapper {
   background-color: #F1E4E6;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -369,7 +369,7 @@ body {
   text-transform: uppercase;
 }
 
-.fetured__title_wrapper {
+.fetured__title-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -484,7 +484,7 @@ body {
   margin: 48px 0 0 0;
 }
 
-.fetured .overlay_wrapper {
+.fetured .overlay-wrapper {
   overflow: hidden;
   position: relative;
 }
