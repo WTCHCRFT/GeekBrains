@@ -678,10 +678,20 @@ body {
   width: 100px;
   border: none;
   color: #fff;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .footer__button:focus {
   outline: none;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.footer__button:active {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .footer__contacts_wrapper {
@@ -711,6 +721,10 @@ body {
 
 .footer__icons {
   margin: 23px 0 23px 0;
+}
+
+.footer__icons svg {
+  fill: #fff;
 }
 
 .footer__copyright {
