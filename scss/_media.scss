@@ -27,6 +27,10 @@
     .cart__forms-wrapper {
         margin-top: 65px;
     }
+
+    .collection__fetured .fetured__list li:last-child {
+        display: none;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1130px) {
@@ -40,6 +44,10 @@
 
     .offers__item_kids {
         margin-right: 25px;
+    }
+
+    .collection__fetured .fetured__list li:last-child {
+        display: none;
     }
 
 }

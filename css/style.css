@@ -992,6 +992,107 @@ body {
   text-transform: uppercase;
 }
 
+.carousel-item {
+  max-height: 699px;
+}
+
+.collection {
+  text-align: center;
+  color: #5D5D5D;
+}
+
+.collection__title {
+  color: #F16D7F;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  font-style: normal;
+  text-transform: uppercase;
+  margin: 62px 0 12px 0;
+}
+
+.collection__line_pink {
+  display: block;
+  margin: 0 auto;
+  width: 63px;
+  height: 3px;
+  background-color: #F16D7F;
+}
+
+.collection__subtitle {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 300;
+  font-style: normal;
+  text-transform: uppercase;
+  margin: 12px 0 48px 0;
+}
+
+.collection__text {
+  max-width: 555px;
+  margin: 0 auto;
+}
+
+.collection__price {
+  color: #F16D7F;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 300;
+  font-style: normal;
+  margin: 32px 0 0 0;
+}
+
+.collection__line_grey {
+  display: block;
+  width: 174px;
+  height: 1px;
+  background-color: #5D5D5D;
+  margin: 32px auto 49px auto;
+}
+
+.collection__choose_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 374px;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.collection__choose_item {
+  position: relative;
+  text-transform: uppercase;
+  color: #5D5D5D;
+}
+
+.collection__choose_item:after {
+  content: ' ';
+  background-image: url(../../img/choose.svg);
+  width: 10px;
+  height: 6px;
+  position: absolute;
+  top: 8px;
+  right: -16px;
+  cursor: pointer;
+}
+
+.collection__choose_btn {
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+  color: #5D5D5D;
+}
+
+.collection__button {
+  color: #F16D7F;
+  border: 1px solid #F16D7F;
+  background-color: transparent;
+  padding: 14px 57px 14px 72px;
+  margin: 48px 0 65px 0;
+}
+
 @media (min-width: 1200px) and (max-width: 1500px) {
   .offers__item {
     -webkit-box-flex: 1;
@@ -1025,6 +1126,9 @@ body {
   .cart__forms-wrapper {
     margin-top: 65px;
   }
+  .collection__fetured .fetured__list li:last-child {
+    display: none;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1130px) {
@@ -1038,6 +1142,9 @@ body {
   }
   .offers__item_kids {
     margin-right: 25px;
+  }
+  .collection__fetured .fetured__list li:last-child {
+    display: none;
   }
 }
 

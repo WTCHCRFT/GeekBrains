@@ -1,0 +1,90 @@
+.carousel-item {
+    max-height: 699px;
+}
+
+.collection {
+    text-align: center;
+    color: $scorpion;
+
+    &__title {
+        color: $pink;
+        @include font(14px, 17px, 300);
+        text-transform: uppercase;
+        margin: 62px 0 12px 0;
+    }
+
+    &__line_pink {
+        display: block;
+        margin: 0 auto;
+        width: 63px;
+        height: 3px;
+        background-color: $pink;
+    }
+
+    &__subtitle {
+        @include font(18px, 22px, 300);
+        text-transform: uppercase;
+        margin: 12px 0 48px 0;
+    }
+
+    &__text {
+        max-width: 555px;
+        margin: 0 auto;
+    }
+
+    &__price {
+        color: $pink;
+        @include font(24px, 29px, 300);
+        margin: 32px 0 0 0;
+    }
+
+    &__line_grey {
+        display: block;
+        width: 174px;
+        height: 1px;
+        background-color: $scorpion;
+        margin: 32px auto 49px auto;
+    }
+
+    &__choose_wrapper {
+        display: flex;
+        max-width: 374px;
+        margin: 0 auto;
+        justify-content: space-between;
+
+    }
+
+    &__choose_item {
+        position: relative;
+        text-transform: uppercase;
+        color: $scorpion;
+
+        &:after {
+
+            content: ' ';
+            background-image: url(../../img/choose.svg);
+            width: 10px;
+            height: 6px;
+            position: absolute;
+            top: 8px;
+            right: -16px;
+            cursor: pointer;
+        }
+
+    }
+
+    &__choose_btn {
+        text-transform: uppercase;
+        background-color: transparent;
+        border: none;
+        color: $scorpion;
+    }
+
+    &__button {
+        color: $pink;
+        border: 1px solid $pink;
+        background-color: transparent;
+        padding: 14px 57px 14px 72px;
+        margin: 48px 0 65px 0;
+    }
+}
