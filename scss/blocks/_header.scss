@@ -8,6 +8,10 @@
 
     }
 
+    &__loupe {
+        cursor: pointer;
+    }
+
     &__controls {
         display: flex;
         align-items: center;
@@ -19,6 +23,7 @@
     }
 
     &__input {
+        cursor: pointer;
         height: 27px;
         width: 0px;
         border: none;
@@ -89,6 +94,7 @@
         background-color: transparent;
         border: none;
         margin: 0 34px 0 0;
+        cursor: pointer;
     }
 
     &__logo {

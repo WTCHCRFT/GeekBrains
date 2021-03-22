@@ -114,6 +114,10 @@ body {
   border-bottom: 1px solid white;
 }
 
+.header__loupe {
+  cursor: pointer;
+}
+
 .header__controls {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -129,6 +133,7 @@ body {
 }
 
 .header__input {
+  cursor: pointer;
   height: 27px;
   width: 0px;
   border: none;
@@ -215,6 +220,7 @@ body {
   background-color: transparent;
   border: none;
   margin: 0 34px 0 0;
+  cursor: pointer;
 }
 
 .header__logo {
