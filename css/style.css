@@ -666,6 +666,10 @@ body {
   width: 250px;
 }
 
+.footer__input:focus {
+  outline: none;
+}
+
 .footer__button {
   height: 49px;
   border-top-right-radius: 35px;
@@ -674,6 +678,10 @@ body {
   width: 100px;
   border: none;
   color: #fff;
+}
+
+.footer__button:focus {
+  outline: none;
 }
 
 .footer__contacts_wrapper {

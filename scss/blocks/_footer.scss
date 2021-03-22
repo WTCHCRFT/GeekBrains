@@ -63,6 +63,10 @@
         border: none;
         padding: 0 0 0 27px;
         width: 250px;
+
+        &:focus {
+            outline: none;
+        }
     }
 
     &__button {
@@ -73,6 +77,10 @@
         width: 100px;
         border: none;
         color: $white;
+
+        &:focus {
+            outline: none;
+        }
     }
 
     &__contacts_wrapper {
