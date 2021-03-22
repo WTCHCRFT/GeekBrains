@@ -2,6 +2,39 @@
     background-color: $mine-shaft;
     position: relative;
 
+    &__loupe:hover+.header__input {
+        width: 100px;
+        border-bottom: 1px solid rgba($color: #fff, $alpha: 1.0);
+
+    }
+
+    &__controls {
+        display: flex;
+        align-items: center;
+    }
+
+    &__input:hover {
+        width: 100px;
+        border-bottom: 1px solid rgba($color: #fff, $alpha: 1.0);
+    }
+
+    &__input {
+        height: 27px;
+        width: 0px;
+        border: none;
+        padding: 0;
+        transition: all 0.5s ease;
+        background-color: transparent;
+        color: #fff;
+        padding: 0 0 0 10px;
+        margin-left: 15px;
+        border: 1px solid rgba($color: #fff, $alpha: 0);
+
+        &:focus {
+            outline: none;
+        }
+    }
+
     &__navigation {
         background: $white;
         width: 232px;
