@@ -1,5 +1,5 @@
 .fetured {
-    &__title_wrapper {
+    &__title-wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -83,7 +83,7 @@
         margin: 48px 0 0 0;
     }
 
-    .overlay_wrapper {
+    .overlay-wrapper {
         overflow: hidden;
         position: relative;
     }
